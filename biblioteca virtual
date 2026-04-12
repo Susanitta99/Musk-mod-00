@@ -1,0 +1,95 @@
+//Biblioteca Virtual//
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF=-8">
+        <title> Biblioteca Virtual </title>
+        <style>
+            body {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header, footer {
+                background-color: #ffffff;
+                color: rgb(0, 0, 0);
+                padding: 30px;
+                text-align: left;
+            }
+            nav a {
+                color: rgb(0, 0, 0);
+                margin: 15px;
+                text-decoration: double;
+            }
+            .container {
+                display: flex;
+            }
+            aside {
+                width: 85%;
+                background-color: #ffffff;
+                padding: 30px;
+            }
+            main { 
+                width: 85%;
+                padding: 30px;
+            }
+            footer {
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+<body>
+    <header>
+        <h1> Biblioteca Virtual </h1>
+        <nav>
+            <ul>
+            <li><a href="Inicio"> Inicio </a></li>
+            <li><a href="Catálogo"> Catálogo </a></li>
+            <li><a href="Contacto"> Contacto </a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2> Bienvenidos a la Biblioteca Virtual </h2>
+            <p> En nuestra biblioteca ofrece una amplia variedad de libros, de diferentes géneros y catégorias. Explora nuestro catálogo y encuentra tu próxima lectura.</p>
+<h3> Categorías Populares </h3>
+<p> Nuestro catálogo incluye las siguientes Categorías populares: 
+    <ol>
+        <li> Ficción</li>
+        <li> No ficción</li>
+        <li> Misterio</li>
+        <li> Biografías</li>
+    </ol>
+   
+</p>
+<h3> Libros Recomendados </h3>
+<p>
+ <ul>
+    <li>El Gran Gatsby - F. Scott Fitzgerald</li>
+    <li>Cien años de soledad - Gabriel García Márquez</li>
+    <li>Don Quijote de la Mancha - Miguel de Cervantes</li>
+    <li>Orgullo y Prejuicio - Jane Austen</li>
+</ul>
+       <p>
+    Para más información sobre nuestros libros y autores, visita <a href="#">nuestro catálogo en linea</a>
+</p>
+</p>
+ <aside>
+            <h4> Enlaces útiles </h4>
+            <ul>
+                <li><a href="#"> Registro de usuario </a></li>
+                <li><a href="#"> Política de prestamos </a></li>
+            </ul>
+        </aside>
+
+        </article>
+    </main>
+    </div>
+    <footer id="Contacto">
+        <p> Contacto: biblioteca@ejemplo.com | Tel: +340664 81 57 18 </p>
+    </footer>
+</body>
+
+</html>
