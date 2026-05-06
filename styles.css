@@ -15,18 +15,27 @@ nav ul {
     list-style: none;
     padding: 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a6fb282b6d52bc7f62350b996990061cac10dc11
 nav ul li {
     display: inline;
     margin: 15px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a6fb282b6d52bc7f62350b996990061cac10dc11
 nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a6fb282b6d52bc7f62350b996990061cac10dc11
 nav a:hover {
     color: #f1c40f;
 }
@@ -53,12 +62,19 @@ aside {
 a {
     transition: 0.3s;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> a6fb282b6d52bc7f62350b996990061cac10dc11
 footer {
     background-color: #2c3e50;
     color: white;
     text-align: center;
     padding: 15px;
     margin-top: 20px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a6fb282b6d52bc7f62350b996990061cac10dc11
