@@ -1,0 +1,265 @@
+Proyecto final FrontEnd
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Virtual Responsive</title>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <header class="bg-blue-900 text-white shadow-md">
+        <div class="container mx-auto px-6 py-5 flex flex-col md:flex-row justify-between items-center">
+
+            <h1 class="text-3xl font-bold mb-4 md:mb-0">
+                Biblioteca Virtual
+            </h1>
+
+            <nav>
+                <ul class="flex gap-6 text-lg">
+                    <li>
+                        <a href="#inicio" class="hover:text-yellow-300 transition">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#catalogo" class="hover:text-yellow-300 transition">
+                            Catálogo
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contacto" class="hover:text-yellow-300 transition">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div class="container mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-4 gap-6">
+
+        <main class="md:col-span-3 space-y-10">
+            <section id="inicio">
+                <article class="bg-white rounded-2xl shadow-lg p-8">
+
+                    <h2 class="text-2xl font-bold text-blue-800 mb-4">
+                        Bienvenidos a la Biblioteca Virtual
+                    </h2>
+
+                    <p class="mb-6 leading-relaxed">
+                        En nuestra biblioteca ofrecemos una amplia variedad de libros
+                        de diferentes géneros y categorías.
+                    </p>
+
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">
+                        Categorías Populares
+                    </h3>
+
+                    <ol class="list-decimal list-inside mb-6 space-y-2">
+                        <li>Ficción</li>
+                        <li>No ficción</li>
+                        <li>Misterio</li>
+                        <li>Biografías</li>
+                    </ol>
+
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">
+                        Libros Recomendados
+                    </h3>
+
+                    <ul class="list-disc list-inside mb-6 space-y-2">
+                        <li>El Gran Gatsby - F. Scott Fitzgerald</li>
+                        <li>Cien años de soledad - Gabriel García Márquez</li>
+                        <li>Don Quijote de la Mancha - Miguel de Cervantes</li>
+                        <li>Orgullo y prejuicio - Jane Austen</li>
+                    </ul>
+
+                    <p>
+                        Para más información visita
+                        <a href="#catalogo"
+                            class="text-blue-600 font-semibold hover:underline">
+                            nuestro catálogo en línea
+                        </a>.
+                    </p>
+
+                </article>
+            </section>
+            <section id="catalogo">
+
+                <h2 class="text-3xl font-bold text-blue-800 mb-8 text-center">
+                    Galería de Libros
+                </h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition duration-300">
+
+                        <img src="https://picsum.photos/300/400?1"
+                            alt="Libro 1"
+                            class="w-full h-72 object-cover">
+
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg">
+                                El Gran Gatsby
+                            </h3>
+
+                            <p class="text-gray-600 text-sm">
+                                F. Scott Fitzgerald
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition duration-300">
+
+                        <img src="https://picsum.photos/300/400?2"
+                            alt="Libro 2"
+                            class="w-full h-72 object-cover">
+
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg">
+                                Cien años de soledad
+                            </h3>
+
+                            <p class="text-gray-600 text-sm">
+                                Gabriel García Márquez
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition duration-300">
+
+                        <img src="https://picsum.photos/300/400?3"
+                            alt="Libro 3"
+                            class="w-full h-72 object-cover">
+
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg">
+                                Don Quijote
+                            </h3>
+
+                            <p class="text-gray-600 text-sm">
+                                Miguel de Cervantes
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition duration-300">
+
+                        <img src="https://picsum.photos/300/400?4"
+                            alt="Libro 4"
+                            class="w-full h-72 object-cover">
+
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg">
+                                Orgullo y prejuicio
+                            </h3>
+
+                            <p class="text-gray-600 text-sm">
+                                Jane Austen
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+            <section id="contacto"
+                class="bg-white rounded-2xl shadow-lg p-8">
+
+                <h2 class="text-3xl font-bold text-blue-800 mb-6">
+                    Formulario de Contacto
+                </h2>
+
+                <form class="space-y-6">
+                    <div>
+                        <label class="block mb-2 font-semibold">
+                            Nombre
+                        </label>
+
+                        <input type="text"
+                            required
+                            placeholder="Introduce tu nombre"
+                            class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label class="block mb-2 font-semibold">
+                            Correo electrónico
+                        </label>
+
+                        <input type="email"
+                            required
+                            placeholder="ejemplo@email.com"
+                            class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label class="block mb-2 font-semibold">
+                            Mensaje
+                        </label>
+
+                        <textarea required
+                            rows="5"
+                            placeholder="Escribe tu mensaje aquí..."
+                            class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition duration-300">
+                        Enviar mensaje
+                    </button>
+
+                </form>
+
+            </section>
+
+        </main>
+        <aside class="bg-white rounded-2xl shadow-lg p-6 h-fit">
+
+            <h3 class="text-xl font-bold text-blue-800 mb-4">
+                Enlaces útiles
+            </h3>
+
+            <ul class="space-y-3">
+
+                <li>
+                    <a href="#"
+                        class="text-blue-600 hover:underline">
+                        Registro de usuario
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"
+                        class="text-blue-600 hover:underline">
+                        Política de préstamos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#catalogo"
+                        class="text-blue-600 hover:underline">
+                        Ver catálogo completo
+                    </a>
+                </li>
+
+            </ul>
+
+        </aside>
+
+    </div>
+    <footer class="bg-blue-900 text-white text-center py-4 mt-8">
+
+        <p>
+            Contacto: biblioteca@ejemplo.com | +34 664 81 57 18
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
